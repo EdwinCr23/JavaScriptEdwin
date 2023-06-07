@@ -76,20 +76,13 @@ p{
   text-align: center;
 }
 
-.valores ul{
+.valor{
   text-align: left;
 	display: inline-block;
-}
-
-ul{
-  font-family: 'zilla_slabbold';
- 
-}
-
-li{
   list-style-image: url("Images/Gorrito.png");
-  
+  font-family: 'zilla_slabbold';
 }
+
 footer{
     background-color: #eae3d7;
     padding-top: 12px;
@@ -135,6 +128,25 @@ a:hover{
     text-align: center;
     border: 1px solid;
     transition: 0.2s;
+}
+
+.redes{
+    display: block;
+    text-align: center;
+    padding: 21px;
+   
+}
+
+.redes img{
+  width: 25px;
+  height: 25px;
+  padding-left: 12px;
+  text-decoration: none;
+}
+
+.redsocial:hover{
+  width: 35px;
+  height: 35px;
 }
 
 form {
