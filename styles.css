@@ -5,17 +5,17 @@
 }
 
 body{
-    font-family: 'Inter', sans-serif;
-    padding: 0;
-    background-color: var(--light);
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  background-color: var(--light);
     
 }
 .banner-principal{
-    background: #54351a;
-    font-size: larger;
-    text-align: center;
-    vertical-align: top;
-    align-items: center;
+  background: #54351a;
+  font-size: larger;
+  text-align: center;
+  vertical-align: top;
+  align-items: center;
    
 }
 
@@ -68,14 +68,14 @@ a{
 }
 
 .menu{
-    padding-top: 1 px;
+  padding-top: 1 px;
 }
 
 
 .cuerpo h3{
-    font-family: 'zilla_slabbold';
-    padding: 5px 10px 10px;
-    text-align: center;
+  font-family: 'zilla_slabbold';
+  padding: 5px 10px 10px;
+  text-align: center;
     
 }
 #calendar {
@@ -239,119 +239,131 @@ border: 1px solid #ccc;
   font-family: 'zilla_slabbold';
   border: none;
 }
+
+#materna{
+  background: #eae3d7;
+  border: none;
+  width: 40%;
+  height: 10%;
+  align-items: center;
+  font-family: 'zilla_slabbold';
+  border: none;
+  
+}
 .dlgbtn{
-display: block;
-background-color: var(--secondary);
-font-family: 'zilla_slabbold';
-padding: 5px;
-text-decoration: none;
-color: #fff;
-text-align: center;
-margin-top: 10px;
+  display: block;
+  background-color: var(--secondary);
+  font-family: 'zilla_slabbold';
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
 }
 
 
 .btn{
-display: block;
-background-color: var(--secondary);
-font-family: 'zilla_slabbold';
-padding: 5px;
-text-decoration: none;
-color: #fff;
-text-align: center;
-margin-top: 10px;
+  display: block;
+  background-color: var(--secondary);
+  font-family: 'zilla_slabbold';
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
 
 }
 
 @media(min-width: 480px){
 .contenedor{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:  10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:  10px;
 }
-
-
-
-
 .card-body{
-flex-grow: 1;
-display: flex;
-flex-direction: column;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 }
 
 footer{
-    background-color: #eae3d7;
-    padding-top: 12px;
-    padding-bottom: 15px;
-    align-items: center;
+  background-color: #eae3d7;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  align-items: center;
 }
 
 .informacion{
-    text-align: center;
-    font-family: 'zilla_slabbold';
+  text-align: center;
+  font-family: 'zilla_slabbold';
     
 }
 
-
-
 .button1{
-    background-color: #54351a;
-    font-family: 'zilla_slabbold';
-    color: white;
-    padding: 15px 25px 10px;
-    border-radius: 12px;
-    text-decoration: none;
+  background-color: #54351a;
+  font-family: 'zilla_slabbold';
+  color: white;
+  padding: 15px 25px 10px;
+  border-radius: 12px;
+  text-decoration: none;
 }
 
 .button{
-    background-color: #54351a;
-    font-family: 'zilla_slabbold';
-    color: white;
-    padding: 15px 25px 10px;
-    border-radius: 12px;
-    text-decoration: none;
+  background-color: #54351a;
+  font-family: 'zilla_slabbold';
+  color: white;
+  padding: 15px 25px 10px;
+  border-radius: 12px;
+  text-decoration: none;
     
 }
 
+a{
+  text-decoration: none;
+}
+
 a:hover{
-    background-color: #eae3d7;
-    color: #54351a;
-    font-family: 'zilla_slabbold';
-    text-align: center;
-    border: 1px solid;
-    transition: 0.2s;
+  
+  background-color: #eae3d7;
+  color: #54351a;
+  font-family: 'zilla_slabbold';
+  text-align: center;
+  border: 1px solid;
+  transition: 0.2s;
+  
 }
 
 .redes{
-    display: block;
-    text-align: center;
-    padding: 21px;
-   
+  display: block;
+  text-align: center;
+  padding: 21px;
+  border: 0px;  
 }
 
-.redes img{
+.redes .redsocial{
   width: 25px;
   height: 25px;
   padding-left: 12px;
-  text-decoration: none;
+  
 }
+
+
 
 .redsocial:hover{
   width: 35px;
   height: 35px;
+  text-decoration: none;
 }
 
-
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
   
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  form li + li {
-    margin-top: 1em;
-  }
+form li + li {
+  margin-top: 1em;
+}
  
