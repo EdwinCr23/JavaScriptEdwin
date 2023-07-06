@@ -119,6 +119,10 @@ dialog{
   border: none;
   width:unset;
   padding: 2px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
 }
   
 
@@ -173,9 +177,13 @@ p{
   margin: 0;
 }
 
+
+
 .card{
   width: 100%;
   display: block;
+  border: none;
+
 } 
 
 h1 {
@@ -196,10 +204,10 @@ object-position: 50% 50%;
 }
 
 .contenedor{
-width: 90%;
-max-width: 1000px;
-margin: 0 auto;
-
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  
 }
 .card-header{
 height: 200px;
@@ -209,6 +217,7 @@ object-fit: cover;
 }
 
 .card-title{
+font-weight: bold;
 text-align: center;
 margin: 0;
 }  
@@ -227,28 +236,32 @@ height: 100%;
 border-radius: 0 0 10px 10px;
 background-color: #fff;
 padding: 20px 15px;
-text-align:justify;
+
 border: 1px solid #ccc;
 }
 
 #sodexo{
-  background: #eae3d7;
-  border: none;
-  width: 40%;
-  align-items: center;
+  text-align:justify;
   font-family: 'zilla_slabbold';
+  background:#eae3d7;
   border: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
 }
 
 #materna{
-  background: #eae3d7;
   border: none;
-  width: 40%;
-  height: 10%;
-  align-items: center;
+  width:unset;
+  padding: 2px;
   font-family: 'zilla_slabbold';
-  border: none;
-  
+  background:#eae3d7;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+ 
 }
 .dlgbtn{
   display: block;
@@ -320,9 +333,7 @@ footer{
     
 }
 
-a{
-  text-decoration: none;
-}
+
 
 a:hover{
   

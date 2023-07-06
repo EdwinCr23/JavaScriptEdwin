@@ -12,7 +12,7 @@ function bonocerrar(){
 
 function imprimir(){
     let mensaje = document.getElementById("mensaje");
-    mensaje.show();
+    mensaje.showModal();
 }
 
 function cerrar(){
@@ -20,3 +20,13 @@ function cerrar(){
     mensaje.close();
 }
 
+
+function materna(){
+    let mensaje = document.getElementById("materna");
+    mensaje.show();
+}
+
+function marternocerrar(){
+    let mensaje = document.getElementById("materna");
+    mensaje.close();
+}
