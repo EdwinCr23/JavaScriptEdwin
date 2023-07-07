@@ -30,3 +30,23 @@ function marternocerrar(){
     let mensaje = document.getElementById("materna");
     mensaje.close();
 }
+
+function plancarrera(){
+    let mensaje = document.getElementById("carrera");
+    mensaje.show();
+}
+
+function carrera(){
+    let mensaje = document.getElementById("carrera");
+    mensaje.close();
+}
+
+function salud(){
+    let mensaje = document.getElementById("salud");
+    mensaje.show();
+}
+
+function saludcerrar(){
+    let mensaje = document.getElementById("salud");
+    mensaje.close();
+}
