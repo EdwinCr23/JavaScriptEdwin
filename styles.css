@@ -201,6 +201,7 @@ text-transform: uppercase;
 .card1{
 align-items: center;
 object-position: 50% 50%;
+
 }
 
 .contenedor{
@@ -224,7 +225,7 @@ height: 100%;
 
 .card-body{
   border-radius: 0 0 10px 10px;
-  background-color: #fff;
+  background-color: #eae3d7;
   padding: 20px 15px;
   border: 1px solid #c59f61;
   flex-grow: 1;
