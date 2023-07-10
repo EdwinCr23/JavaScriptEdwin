@@ -151,6 +151,8 @@ h1{
   font-family: 'zilla_slabbold';
   font: bold;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 h3{
   font-family: 'zilla_slabbold';
@@ -257,7 +259,7 @@ height: 100%;
 }
 
 #materna{
-  border: none;
+  border: 0;
   width:unset;
   padding: 2px;
   font-family: 'zilla_slabbold';
