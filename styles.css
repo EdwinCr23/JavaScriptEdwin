@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: 'Inter', sans-serif;
+  font-family: 'zilla_slablight';
   padding: 0;
   background-color: var(--light);
     
@@ -49,7 +49,7 @@ body{
 .enlaces{
   padding: 1px;
   position: relative;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
 }
 
 a{
@@ -73,7 +73,7 @@ a{
 
 
 .cuerpo h3{
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   padding: 5px 10px 10px;
   text-align: center;
     
@@ -81,7 +81,7 @@ a{
 #calendar {
   width: 300px;
   margin: 0 auto;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
 }
 
 
@@ -117,7 +117,6 @@ a{
 
 dialog{
   border: none;
-  
   padding: 2px;
   position: fixed;
   top: 50%;
@@ -125,8 +124,6 @@ dialog{
   transform: translate(-50% -50%);
 }
   
-
-
 button{
   border: none;
   background-color: #eae3d7;  
@@ -134,7 +131,7 @@ button{
 button:hover{
   background-color:#54351a;
   color: #FFFF;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   border-radius: 2em;
   text-align: center;
   
@@ -148,17 +145,17 @@ button:hover{
 }
 
 h1{
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   font: bold;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 5px;
 }
 h3{
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
 }
 p{
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   text-align: center;
 }
 
@@ -171,7 +168,7 @@ p{
   text-align: left;
 	display: inline-block;
   list-style-image: url("Images/Gorrito.png");
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
 }
 
 *, *::after, *::before {
@@ -219,18 +216,6 @@ object-position: 50% 50%;
 object-fit: cover;
 }
 
-.card-title{
-font-family: 'zilla_slabbold';
-font-weight: bold;
-color: #54351a;
-text-align: center;
-margin: 0;
-}  
-
-.card-description{
-flex-grow: 1;
-}
-
 .card-header img{
 border-radius: 10px 10px 0 0;
 width: 100%;
@@ -241,15 +226,27 @@ height: 100%;
   border-radius: 0 0 10px 10px;
   background-color: #fff;
   padding: 20px 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #c59f61;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
 
+.card-title{
+  font-family: 'zilla_slablight';
+  font-weight: bold;
+  color: #54351a;
+  text-align: center;
+  margin: 0;
+}  
+
+.card-description{
+  flex-grow: 1;
+}
+
 #sodexo{
   text-align:justify;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   background:#ffff;
   position: fixed;
   top: 50%;
@@ -262,7 +259,7 @@ height: 100%;
   border: 0;
   width:unset;
   padding: 2px;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   background:#eae3d7;
   position: fixed;
   top: 50%;
@@ -275,7 +272,7 @@ height: 100%;
   border: none;
   width:unset;
   padding: 2px;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   background:#eae3d7;
   position: fixed;
   top: 50%;
@@ -287,7 +284,7 @@ height: 100%;
   border: none;
   width:unset;
   padding: 2px;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   background:#eae3d7;
   position: fixed;
   top: 50%;
@@ -297,7 +294,7 @@ height: 100%;
 .dlgbtn{
   display: block;
   background-color: var(--secondary);
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   padding: 5px;
   text-decoration: none;
   color: #fff;
@@ -310,7 +307,7 @@ height: 100%;
 .btn{
   display: block;
   background-color: var(--secondary);
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   padding: 5px;
   text-decoration: none;
   color: #fff;
@@ -340,7 +337,7 @@ footer{
 
 .button1{
   background-color: #54351a;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   color: white;
   padding: 15px 25px 10px;
   border-radius: 12px;
@@ -349,7 +346,7 @@ footer{
 
 .button{
   background-color: #54351a;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   color: white;
   padding: 15px 25px 10px;
   border-radius: 10px;
@@ -364,10 +361,11 @@ a:hover{
   
   background-color: #eae3d7;
   color: #54351a;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
   text-align: center;
   border: 1px solid;
   transition: 0.2s;
+   border: 1px solid #c59f61;
   
 }
 
@@ -381,7 +379,7 @@ a:hover{
 
 h3{
   color: #54351a;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slablight';
 }
 
 .redsocial{ 
