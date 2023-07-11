@@ -219,6 +219,7 @@ object-fit: cover;
 
 .card-header img{
 border-radius: 10px 10px 0 0;
+border: 0.5px solid #c59f61;
 width: 100%;
 height: 100%;
 }
