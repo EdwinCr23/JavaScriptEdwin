@@ -1,3 +1,5 @@
+
+
 :root{
   --light: #1d1c1963;
   --primary: rgb(9, 9, 71);
@@ -11,12 +13,13 @@ body{
 }
 
 .banner-principal{
+  width: 100%;
   background: #54351a;
   font-size: larger;
   text-align: center;
   vertical-align: top;
   align-items: center;
-   
+    
 }
 
 .main{
@@ -133,6 +136,18 @@ button:hover{
   text-align: center; 
   transition: 0.6s;
 }
+
+.sst{
+  padding: 21px;
+  align-items: center;
+}
+
+/**.convivencia-laboral{
+  width: 60%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}**/
 
 .corporativo{
   background:#eae3d7;
