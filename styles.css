@@ -27,6 +27,11 @@ body{
   display: inline-block;
 }
 
+
+
+
+
+
 .principal{
   width: 25%;
   height: auto;
@@ -91,6 +96,7 @@ a{
 }
 
 #calendar caption {
+  color: #54351a;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -149,36 +155,63 @@ button:hover{
   left: 50%;
 }**/
 
+/**.gif .rotate {
+  animation-name: girar;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes girar{
+  from{
+    transform: rotate(0deg);
+
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.rotate{
+  padding: 21px;
+  width: 20%;
+  height: 20%;
+  position: relative;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}**/
+
 .corporativo{
   background:#eae3d7;
   padding: 15px;
 }
 
 h1{
-  font-family: 'zilla_slablight';
+  font-family: 'zilla_slabmedium';
   font: bold;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 5px;
 }
 h3{
-  font-family: 'zilla_slablight';
+  font-family: 'zilla_slabmedium';
 }
 p{
-  font-family: 'zilla_slablight';
+  font-family: 'zilla_slabmedium';
   text-align: center;
 }
 
 .valores{
   text-align: center;
-  font-family: 'zilla_slabbold';
+  font-family: 'zilla_slabmedium';
 }
 
 .valor{
   text-align: left;
 	display: inline-block;
   list-style-image: url("Images/Gorrito.png");
-  font-family: 'zilla_slablight';
+  font-family: 'zilla_slabmedium';
 }
 
 *, *::after, *::before {
