@@ -1,5 +1,3 @@
-
-
 function cumple(){
     let dlg = document.getElementById("msg");
     dlg.show();
